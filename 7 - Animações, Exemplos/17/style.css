@@ -1,0 +1,24 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	font-family: 'Lato', sans-serif;
+	animation: bgchange 10s infinite;
+   }
+
+h1 {
+	font-size: 70px;
+	text-align: center;
+	text-transform: capitalize;
+	color: white;
+}
+
+@keyframes bgchange {
+	0% { background-color: lightcoral; }
+	20% { background-color: lightgoldenrodyellow; }
+	40% { background-color: tomato; }
+	60% { background-color: lightblue; }
+	80% { background-color: lightgreen; }
+	100% { background-color: lightcoral; }
+}

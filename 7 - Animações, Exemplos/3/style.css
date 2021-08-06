@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    height: 100vh;
+    background: url(bg.jpg);
+    background-position: bottom left;
+    animation: driving 15s linear infinite;
+}
+
+.foguete {
+    position: absolute;
+    left: 40%;
+    bottom: 40%;
+    width: 700px;
+}
+
+@keyframes driving {
+    from {background-position: bottom right;}
+
+    to {background-position: bottom left;}
+}

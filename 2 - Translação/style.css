@@ -1,0 +1,41 @@
+.container {
+    width: 960;
+}
+
+.move {
+    margin: 2em;
+    width: 150px;
+    padding: 10px 15px;
+    background-color: cyan;
+    color: #ffffff;
+    line-height: 50px;
+    text-align: center;
+    border-radius: .5em;
+    font-size: 20px;
+    transition-property: translate();
+    transition-duration: 3s;
+}
+
+#ease {
+    transition-timing-function: ease;
+}
+
+#linear {
+    transition-timing-function: linear;
+}
+
+#ease-in {
+    transition-timing-function: ease-in;
+}
+
+#ease-out {
+    transition-timing-function: ease-out;
+}
+
+#ease-int-out {
+    transition-timing-function: ease-in-out;
+}
+
+.move:hover {
+    transform: translate(900px, 0);
+}
